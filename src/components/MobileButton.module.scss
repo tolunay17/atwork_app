@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mobile_button {
+        margin: 0 auto;
+        max-width: 30rem;
+    ul {
+        box-shadow: 0rem 0.1rem black;
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        list-style: none;
+        background-color: #efefef;
+        border-radius: 1rem;
+        border: 1px solid black;
+        margin: auto;
+        position: relative;
+        padding: 0.5rem 1rem;
+        .btn {
+            border: none;
+            img {
+                width: 2rem;
+            }
+        }
+    }
+}

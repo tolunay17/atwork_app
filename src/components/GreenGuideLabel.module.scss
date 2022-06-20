@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container_greenguidelabel {
+    background-color: #779474;
+
+    .wrapper {
+        max-width: 35rem;
+        margin: auto;
+    }
+    .title {
+        padding: 5rem 1rem;
+        font-size: 2.25rem;
+        color: white;
+        text-align: center;
+    }
+    .container_text {
+        background-color: #ffffe5;
+        border-radius: 2rem 2rem 0rem 0rem;
+        box-shadow: 0rem 0rem 1rem 0rem;
+        padding-bottom: 10rem;
+        background-color: #ffffe5;
+        .text {
+            padding: 4rem 1rem 1rem 2.4rem;
+        }
+        .text2 {
+            padding: 1rem 2.4rem
+        }
+        .text3 {
+            padding: 1rem 2.4rem
+        }
+        li {
+            list-style: none;
+        }
+        .text4 {
+            padding: 2rem 2.4rem;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mobile_button {
+    background-color: #779474;
+  .wrapper {
+    margin: 0 auto;
+    max-width: 30rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+    .closebtn {
+        color: white;
+        width: 3rem;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        cursor: pointer;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+        height: 50vh;
+        justify-content: space-between;
+        li {
+            list-style: none;
+            .btn {
+                border: none;
+                cursor: pointer;
+                border-radius: 1rem;
+                padding: 0.5rem;
+            }
+        }
+    }
+    img {
+        width: 6rem;
+    }
+}
