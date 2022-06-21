@@ -1,44 +1,57 @@
 import styles from "./Cards.module.scss"
-import fruit from "../icons/fruit.jpeg";
-import mensen from "../icons/mensen.jpeg";
-import friet from "../friet.jpeg";
-import kleren from "../icons/kleren.jpeg";
+import fruit from "./assets/fruit.jpeg";
+import mensen from "./assets/mensen.jpeg";
+import friet from "./assets/friet.jpeg";
+import kleren from "./assets/kleren.jpeg";
 
 const Cards = () => {
     return (
       <>
       <div className={styles.container_cards}>
-    <div className={styles.card_lush}>
-        <button className={styles.btnlush} type="submit">
-          Lush
-          <span>20%</span>
-          <img src={fruit} alt="fruit"/>
-        </button>
-    </div>
-    <div className={styles.card_cafe}>
-        <button className={styles.btncafe} type="submit">
-          Vooruit
-          Cafe
-          <span>10%</span>
-          <img src={mensen} alt="mensen"/>
-        </button>
-    </div>
-    <div className={styles.card_friet}>
-        <button className={styles.btnfriet} type="submit">
-          Des
-          Frietketel
-          <span>50%</span>
-          <img src={friet} alt="friet"/>
-        </button>
-    </div>
-    <div className={styles.card_yak}>
-        <button className={styles.btnyak} type="submit">
-          Yak en Yeti
-          <span>20%</span>
-          <img src={kleren} alt="kleren"/>
-        </button>
-    </div>
-  </div>
+        <div className={styles.wrapper}>
+
+          <div className={styles.all_btn}>
+            <button className={styles.topbtn}>Rewards</button>
+            <button className={styles.topbtn}>Step</button>
+            <button className={styles.topbtn}>Discounts</button>
+          </div>
+          <div className={styles.cards}>
+            <div className={styles.card_lush}>
+                <div className={styles.btnlush} type="submit">
+                  <p className={styles.text}>Lush<span> 20%</span></p>
+                  
+                  <img src={fruit} alt="fruit"/>
+                </div>
+            </div>
+            <div className={styles.card_cafe}>
+                <div className={styles.btnlush} type="submit">
+                  <p className={styles.text}> Vooruit
+                  Cafe<span> 10%</span></p>
+                  
+                  <img src={mensen} alt="mensen"/>
+                </div>
+            </div>
+            <div className={styles.card_friet}>
+                <div className={styles.btnlush} type="submit">
+                  <p className={styles.text}>Des
+                  Frietketel<span> 50%</span></p>
+                  
+                  
+                  <img src={friet} alt="friet"/>
+                </div>
+            </div>
+            <div className={styles.card_yak}>
+                <div className={styles.btnlush} type="submit">
+                  <p className={styles.text}>Yak en Yeti<span> 20%</span></p>
+                  
+                  
+                  <img src={kleren} alt="kleren"/>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
       </>
     );
   };

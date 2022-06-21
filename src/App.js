@@ -6,7 +6,8 @@ import {Shop} from "./components";
 import {EatDrink} from "./components";
 import { Transport } from "./components"
 import { Green } from "./components"
-import MobileVer from "./components/MobileVer";
+import { Cards } from "./components"
+// import MobileVer from "./components/MobileVer";
 // import { CardMap } from "./components"
 // import { Ohne } from "./components"
 
@@ -23,7 +24,8 @@ function App() {
       {/* <Green/> */}
       {/* <CardMap/> */}
       {/* <Ohne/> */}
-      <MobileVer/>
+      {/* <MobileVer/> */}
+      <Cards/>
     </div>
   );
 }

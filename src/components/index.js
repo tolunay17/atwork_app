@@ -7,8 +7,11 @@ import Shop from "./Shop";
 import Green from "./Green"
 import CardMap from "./CardMap";
 import Ohne from "./Ohne";
+import Cards from "./Cards";
+
 export {
     HeaderHome,
+    Cards,
     Ohne,
     CardMap,
     Green,

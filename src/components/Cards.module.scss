@@ -3,3 +3,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container_cards {
+    .wrapper {
+        margin: auto;
+        max-width: 30rem;
+    }
+    background-color: #779474;
+    .all_btn {
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 3rem 5%;
+        
+        justify-content: space-evenly;
+        display: flex;
+        .topbtn {
+            cursor: pointer;
+            padding: 1rem;
+            border-radius: 1rem;
+            padding: 0.8rem 1.5rem;
+            border-radius: 1rem;
+        }
+    }
+    img {
+        width: 80%;
+        padding-bottom: 2rem;
+    }
+    .cards {
+        text-align: center;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+    }
+    #button {
+        .text {
+            border: 1px solid black;
+            color: black;
+            width: 20%;
+            text-align: center;
+            align-content: center;
+            justify-content: center;
+            margin: 0 auto;
+            background: white;
+            position: absolute;
+            left: 2rem;
+            top: 2rem;
+            border-radius: 1rem;
+        }
+        position: relative;
+    }
+    .btnlush {
+        position: relative;
+    .text {
+        position: absolute;
+        top: 1.7rem;
+        left: 0rem;
+        color: black;
+        background: white;
+        border: 1px solid black;
+        padding: 5%;
+        border-radius: 50%;
+        width: 30%;
+        height: 50%;
+    }
+    }
+}
